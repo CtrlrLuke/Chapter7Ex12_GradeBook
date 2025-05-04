@@ -298,7 +298,7 @@ void SearchAndEdit(vector<string>& names, vector<vector<int>>& grades)
             else if (opt == 2)
             {
                 int index;
-                cout << "Which grade index (0–" << grades[i].size() - 1 << "): ";
+                cout << "Which grade index (0-" << grades[i].size() - 1 << "): ";
                 cin >> index;
                 if (index >= 0 && index < static_cast<int>(grades[i].size()))
                 {
